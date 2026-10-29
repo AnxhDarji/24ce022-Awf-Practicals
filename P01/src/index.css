@@ -1,0 +1,14 @@
+:root { font-family: Arial, sans-serif; color: #1e293b; background: #f1f5f9; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+.page { min-height: 100vh; display: flex; flex-direction: column; }
+.header { color: white; text-align: center; padding: 3rem 1.5rem; }
+.header h1 { margin: .35rem 0; }
+.eyebrow { margin: 0; text-transform: uppercase; letter-spacing: .1em; font-size: .8rem; }
+.content { width: min(760px, 92%); margin: 2rem auto; flex: 1; display: grid; gap: 1.25rem; }
+.card { background: white; border-radius: 10px; padding: 1.5rem; box-shadow: 0 2px 8px #cbd5e166; }
+.card h2 { margin-top: 0; color: #2563eb; }
+.skill-list { display: flex; flex-wrap: wrap; gap: .75rem; padding: 0; list-style: none; }
+.skill-list li { background: #dbeafe; color: #1d4ed8; padding: .5rem .85rem; border-radius: 999px; }
+.footer { background: #1e293b; color: white; text-align: center; padding: 1rem; font-size: .9rem; }
+.footer p { margin: .25rem; }
